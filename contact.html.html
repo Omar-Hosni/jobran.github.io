@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html ="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>words</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ </head>
+ <body>
+<section class="sub-header">
+    <nav>
+    <a href="learn.html"><img src="image.png/English logo.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html.html">ABOUT</a></li>
+            <li><a href="blog.html.html">BLOG</a></li>
+            <li><a href="contact.html.html">CONTACT</a></li>
+
+
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>تواصل معنا </h1>
+
+</section>
+<!-----contact us-->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d475533.9694527852!2d40.29504075810283!3d21.38560701679039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15e98eccb0a33f2f%3A0xfa3fe5e1341fa2a7!2sTaif!5e0!3m2!1sen!2ssa!4v1643864384023!5m2!1sen!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>شارع الملك فهد </h5>
+                    <p>الطائف</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>053865....</h5>
+                    <p>متاح الاحد من10 صباحا الى 4 مساء</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>Jubranii45889900@gmail.com</h5>
+                    <p> ارسل ايميل</p>
+                </span>
+
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="اسمك" required>
+                    <input type="Email" name="email" placeholder="ايميلك" required>
+                    <textarea rows="8" name="message" placeholder="الرسالة" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">ارسل رسالة</button>
+
+        
+
+                </form>
+
+
+
+            </div>
+
+    </div>
+
+</section>
+
+<section class="footer">
+    <h4> من نحن</h4>
+    <p> اش دخلك</p>
+    <div class="icons">
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i></p>
+</section>
+
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0"}
+    function hideMenu(){
+        navLinks.style.right="-200px"}
+</script>
+
+ </body>
+</html>
